@@ -5,10 +5,10 @@ def create_connection():
     """Establish database connection."""
     try:
         connection = mysql.connector.connect(
-            host='localhost',
-            database='student_management',
-            user='proj',         # Replace with your MySQL username
-            password='proj' # Replace with your MySQL password
+            host='',
+            database='',
+            user='',         # Replace with your MySQL username
+            password='' # Replace with your MySQL password
         )
         return connection
     except Error as e:
